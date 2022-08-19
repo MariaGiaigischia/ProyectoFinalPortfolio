@@ -1,0 +1,44 @@
+.lineas{
+    border-color: blue;
+    border-width :thin;
+    border-style: solid;
+}
+.tarjeta{
+    border-radius: 32px;
+    margin: 20px 10px;
+    padding:20px;
+    border-color:blue;
+}
+
+
+.contenedor{
+    position:relative;
+    width:900px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 80vw;
+}
+.contenedor .unatarjeta{
+    position:relative;
+    width:250px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:300px;
+    border-radius:4px;
+    text-align:center;
+    overflow:hidden;
+    transition:0.5s;
+}
+.contenedor .unatarjeta:hover{
+    transform: translateY(-10px);
+    box-shadow: 0  15px 30px rgba(0,0,0,.5);
+}
+
+.unatarjeta:hover{
+    color:#fff;
+    font-size:30px;
+}
+
+
